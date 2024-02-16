@@ -1,7 +1,12 @@
 *{
     text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background: rgb(7, 100, 103);
 }
 .navbar{
+    margin: -10px;
     background: green; 
     font-family: calbri;
     padding-right: 15px;
@@ -24,4 +29,39 @@ li{
 }
 li a{
     color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
+}
+.aboutme{
+   box-sizing: border-box;
+   border: 5px;
+}
+.aboutme p{
+    display: inline-block;
+    font-size: 12px;
+}
+.Title1{
+    font-size: 35px;
+    color: whitesmoke;
+    float: right;
+    padding-right: 550px;
+}
+.Title2{
+    font-size: 35px;
+    color: whitesmoke;
+    float: right;
+    padding-right: 550px;
+}
+.para{
+    padding-top: 100px;
+    
+}
+.para p{
+    color: white;
+    font-size: 25px;
+}
+.lol{
+    margin-top: -175px;
+    float: right;
+    margin-right: 50px;
+    height: 450px;
+    width: 350px;
 }
